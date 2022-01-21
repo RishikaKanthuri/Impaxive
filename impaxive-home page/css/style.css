@@ -1,0 +1,421 @@
+* {
+    box-sizing: border-box;
+}
+
+header img {
+    padding-left: 55px;
+}
+
+
+
+
+header a {
+    font-size: 0.9em;
+    color: black;
+    font-family: cursive;
+    font-weight: 600;
+    font-stretch: semi-expanded;
+    height: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 200px;
+    box-shadow: 0px 2px 15px 0px black;
+    z-index: 1;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    font-display: inherit;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+}
+
+
+.dropdown-content a {
+    display: block;
+    color: black;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 12px 16px;
+    text-decoration: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+header .nav-item:last-child {
+    padding-right: 4.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: #fc4103;
+}
+
+/*section1*/
+.section1 {
+    background-color: #fc4103;
+    padding: 50px;
+    box-sizing: content-box;
+    height: 450px;
+}
+
+
+
+.carousel-item {
+    color: seashell;
+    height: 350px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    margin-bottom: -90px;
+
+}
+
+.carousel-item h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+/*section2*/
+.section2 {
+    height: 650px;
+    padding: 80px 60px 10px 60px;
+}
+
+.section2 .panel h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    letter-spacing: .05px;
+}
+
+.section2 .panel p {
+    font-stretch: wider;
+    font-size: 36px;
+    color: #fc4103;
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+.section2 .panel hr {
+    color: #fc4103;
+}
+
+.section2 p.pt-4 {
+    text-align: justify;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#nasscom {
+    padding: 70px 0px 30px;
+}
+
+#nasscom p {
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: normal;
+    font-stretch: ultra-expanded;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+/*section 3*/
+#services.bg-light-gray.half-section {
+    background-color: #f7f7f7;
+}
+
+
+
+.row.s2 {
+    padding: 20px;
+}
+
+.row.s2 h5 {
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-bottom: -50px;
+}
+
+.s1 {
+    width: 110%;
+    height: 30%;
+    filter: grayscale(50%);
+}
+
+figcaption {
+    position: relative;
+    top: -150px;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.btn {
+    background-color: white;
+    font-weight: 600;
+    display: none;
+}
+
+figure:hover .s1 {
+    transform: scale(1.02);
+}
+
+figure:hover figcaption {
+    top: -200px;
+}
+
+figure:hover .btn {
+    display: inline;
+}
+
+a.btn {
+    color: whitesmoke;
+    opacity: 0.75;
+}
+
+a.btn:hover {
+    color: black;
+}
+
+.btn:hover {
+    color: white;
+    background-color: gray;
+}
+
+/*technologies*/
+.sec-tech {
+    padding: 70px;
+}
+
+.sec-tech h3 {
+    font-size: 35px;
+}
+
+.sec-tech.container.text {
+    margin: 150px;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.row {
+    margin-top: 50px;
+    font-size: 12px;
+    font-stretch: semi-expanded;
+    font-weight: 500;
+    color: grey;
+}
+
+/*SECTION-4*/
+.section-4 .container h1 {
+    font-size: 6vmin;
+
+}
+
+
+
+.section-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+}
+
+
+
+.card-title {
+    color: black;
+}
+
+
+#b {
+    padding-top: 5vmin;
+}
+
+#bu {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+
+}
+
+#f {
+    background-color: black;
+}
+
+.row h3,
+h6 {
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#sec {
+    padding-top: 7vmin;
+    width: 100%;
+}
+
+.card-img-top button {
+    border: 3px solid black;
+}
+
+#kmbut {
+    border-radius: 0%;
+    border: 2px solid black;
+    padding: 2px;
+    font-size: 14px;
+}
+
+#kmbut:hover {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+
+#bu {
+    padding: 0px;
+}
+
+#bu:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+
+.btn2 {
+    background-color: orangered;
+    color: white;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.btn2:hover {
+    background-color: black;
+    color: coral;
+}
+
+#r {
+    padding-top: 5vmin;
+}
+
+#x {
+    padding-top: 5vmin;
+}
+
+#x input {
+    border: 0.005px solid rgba(245, 245, 245, 0.842);
+    border-radius: 0%;
+    height: 35px;
+
+}
+
+#se {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(47, 47, 48);
+    color: rgb(100, 98, 98);
+    padding-inline: 1vmin;
+    padding-top: 1vmin;
+    padding-bottom: 1vmin;
+    font-size: 16px;
+    border-radius: 0%;
+    border: 0.005px solid rgba(245, 245, 245, 0.842);
+}
+
+#smbut {
+    margin-bottom: 20px;
+}
+
+#smbut .btn2 {
+    background-color: orangered;
+    color: whitesmoke;
+    border-radius: 0%;
+    border: 1px solid orangered;
+}
+
+#smbut .btn2:hover {
+    color: orangered;
+    background-color: black;
+    border: 1px solid orangered;
+}
+
+
+
+::placeholder {
+    color: white;
+}
+
+.footer-strip {
+    background-color: lightgray;
+}
+
+#car {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: -1s;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 200px;
+    }
+
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#im {
+    background-image: url("../assets/lap.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
